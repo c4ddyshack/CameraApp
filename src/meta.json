@@ -52,6 +52,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 },
@@ -131,7 +132,9 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -177,7 +180,9 @@
                 "cloudinaryAPISecret": null,
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -201,7 +206,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "2",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {},
